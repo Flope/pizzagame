@@ -1,0 +1,54 @@
+.game-board{ 
+ display: grid;
+ grid-template-columns: 10px 80px 80px 80px 80px 80px 80px 80px 10px; 
+ grid-template-rows: 10px 80px 80px 80px 80px 80px 80px 80px 10px;
+ justify-content: center;
+}
+
+.box {
+ background-color: #d9d9d9;
+ border: 2px solid black;
+}
+
+.wall {
+ background-color:black;
+}
+
+.token {
+        background-size: 80% auto;
+        background-repeat: no-repeat;
+        background-position: center;
+}
+
+.yellow-player {
+        background-image: url('tokens/yellowmeeple.png');
+}
+.green-player {
+        background-image: url('tokens/greenmeeple.png');
+}
+.white-player {
+        background-image: url('tokens/meeple.png');
+}
+
+.green-pizza {
+        background-image: url('tokens/pizza_green.png');
+}
+.yellow-pizza {
+        background-image: url('tokens/pizza_yellow.png');
+}
+.white-pizza {
+        background-image: url('tokens/pizza_white.png');
+}
+
+.green-house {
+         background-image: url('tokens/house_green.png');
+}
+.yellow-house {
+         background-image: url('tokens/house_yellow.png');
+}
+.white-house {
+         background-image: url('tokens/house_white.png');
+}
+.ghost {
+         background-image: url('tokens/ghost.png');
+}
